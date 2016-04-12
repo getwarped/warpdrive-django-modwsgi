@@ -1,1 +1,1 @@
---application-type module --entry-point hello_world.wsgi --url-alias /static/ static/ --trust-proxy-header X-Forwarded-For --trust-proxy-header X-Forwarded-Port --trust-proxy-header X-Forwarded-Scheme
+--application-type module --entry-point hello_world.wsgi --url-alias /static/ static/ --trust-proxy-header X-Forwarded-For --trust-proxy-header X-Forwarded-Port --trust-proxy-header X-Forwarded-Proto
